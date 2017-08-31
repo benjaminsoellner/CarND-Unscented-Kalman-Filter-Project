@@ -6,6 +6,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include "tools.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
@@ -66,6 +67,12 @@ public:
 
   ///* Sigma point spreading parameter
   double lambda_;
+
+  ///* Number of Sigma Points
+  int n_sig_;
+
+  ///* last measurement
+  long long previous_timestamp_;
 
 
   /**
