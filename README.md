@@ -2,6 +2,11 @@
 ## Benjamin Söllner, 31 Aug 2017
 
 ---
+
+![Fun Project Header Image](project_carnd_7_unscented_kalman_filters_400.png)
+
+---
+
 In this project I am utilizing a unscented kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values lower than the threshold and Normalized-Innovation-Squared (NIS) values within the tolerances outlined by the project rubric.
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
