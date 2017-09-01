@@ -13,7 +13,7 @@ This project involves the Term 2 Simulator which can be downloaded [here](https:
 
 ![Screenshot](report/screenshot.png)
 
-The process model which describes the motion was tweaked to be comparable to the movement of cyclists (using approx. 1m/s² = 3.6km/h per second acceleration change and 22.5 degree/second² angular acceleration).
+The process model which describes the motion was tweaked to be comparable to the movement of cyclists (using approx. 0.8m/s² = 2.88km/h per second acceleration change and 22.5 degree/second² angular acceleration).
 
 ```c++
 // Process noise standard deviation longitudinal acceleration in m/s^2
@@ -26,15 +26,15 @@ As you can see in the charts below, >80% of the NIS values fall always nicely in
 
 ![Chart showing time series with NIS values of lidar & radar measurement](report/nis_both.png)
 
-When using both lidar & radar data, 207 out of 249 measurements for lidar (83%) and 226 of 249 measurements for radar (93%) fall within the specified range.
+When using both lidar & radar data, 206 out of 249 measurements for lidar (83%) and 226 of 249 measurements for radar (91%) fall within the specified range.
 
 ![Chart showing time series with NIS values of lidar measurement](report/nis_lidar_only.png)
 
-When using only lidar data, 211 out of 249 measurements (85%) fall within the specified range.
+When using only lidar data, 209 out of 249 measurements (84%) fall within the specified range.
 
 ![Chart showing time series with NIS values of radar measurement](report/nis_radar_only.png)
 
-When using only radar data, 219 out of 249 measurements (88%) fall within the specified range.
+When using only radar data, 225 out of 249 measurements (90%) fall within the specified range.
 
 ## Dependencies
 
