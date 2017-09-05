@@ -17,7 +17,7 @@ The process model which describes the motion was tweaked to be comparable to the
 
 ```c++
 // Process noise standard deviation longitudinal acceleration in m/s^2
-std_a_ = 1.0;
+std_a_ = 0.8;
 // Process noise standard deviation yaw acceleration in rad/s^2
 std_yawdd_ = M_PI / 8.0;
 ```
